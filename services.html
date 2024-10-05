@@ -4,7 +4,6 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
   <title>Certificates</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
@@ -14,7 +13,7 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -34,143 +33,147 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container-fluid d-flex justify-content-between align-items-center">
-
       <h1 class="logo me-auto me-lg-0"><a href="index.html">Harsha</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a class="active" href="services.html">Certificates</a></li>
+          <li><a class="active" href="resume.html">Resume</a></li>
+          <li><a href="services.html">Certificates</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
+      </nav>
       <div class="header-social-links">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+        <a href="https://github.com/HarshaNinganna" class="github"><i class="bi bi-github"></i></a>
+        <a href="https://wa.me/8867132911" class="whatsapp" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        <a href="mailto:hv6152239@gmail.com" class="e-mail"><i class="bi bi-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/harsha-n-164b69283/" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
       </div>
 
     </div>
+  </header>
 
-  </header><!-- End Header -->
-
+  <!-- ======= Certificates Section ======= -->
   <main id="main">
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+    <section id="certificates" class="services">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
           <h2>Certificates</h2>
-          <p>I hold certifications in Full Stack Web Development, Java, Web Design, and PowerBI, 
-            along with an excellence award for outstanding performance during my internship. 
-            I have also completed workshops and contributed to Tumbe E-Journal publications. 
-            These achievements highlight my diverse skills and commitment to continuous learning.</p>
+          <p>I hold certifications in Full Stack Web Development, Java, Web Design, and PowerBI, along with an excellence award for outstanding performance during my internship.</p>
         </div>
-      
+
         <div class="row">
           <!-- Certificate 1 -->
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="certificate-box">
+            <div class="certificate-box text-center">
               <img src="assets/img/certificate1.jpg" alt="Training Completion Certificate" class="img-fluid">
               <h4>Acmegrade/Mood IIT Bombay</h4>
+              <button class="btn btn-primary mt-3" onclick="openModal('assets/img/certificate1.jpg')">View</button>
             </div>
           </div>
-        
+
           <!-- Certificate 2 -->
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
-            <div class="certificate-box">
-              <img src="assets/img/certificate1.jpg" alt="Excellency Certificate" class="img-fluid">
-              <h4>Excellency Certificate</h4>
+            <div class="certificate-box text-center">
+              <img src="assets/img/certificate2.jpg" alt="Excellency Certificate" class="img-fluid">
+              <h4>Web Development Excellency</h4>
+              <button class="btn btn-primary mt-3" onclick="openModal('assets/img/certificate2.jpg')">View</button>
             </div>
           </div>
-        
+
           <!-- Certificate 3 -->
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
-            <div class="certificate-box">
+            <div class="certificate-box text-center">
               <img src="assets/img/webdesign.jpg" alt="Web Design Certificate" class="img-fluid">
               <h4>Web Design Certificate</h4>
+              <button class="btn btn-primary mt-3" onclick="openModal('assets/img/webdesign.jpg')">View</button>
             </div>
           </div>
-        
+
           <!-- Certificate 4 -->
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="400">
-            <div class="certificate-box">
+            <div class="certificate-box text-center">
               <img src="assets/img/power.jpg" alt="PowerBI Certificate" class="img-fluid">
               <h4>PowerBI Certification</h4>
+              <button class="btn btn-primary mt-3" onclick="openModal('assets/img/power.jpg')">View</button>
             </div>
           </div>
-        
+
           <!-- Certificate 5 -->
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="500">
-            <div class="certificate-box">
-              <img src="assets/img/java.jpg" alt="Full Stack Web Development Certificate" class="img-fluid">
+            <div class="certificate-box text-center">
+              <img src="assets/img/java.jpg" alt="Java Course Completion Certificate" class="img-fluid">
               <h4>Java Course Completion Certificate</h4>
+              <button class="btn btn-primary mt-3" onclick="openModal('assets/img/java.jpg')">View</button>
             </div>
           </div>
-        
+
           <!-- Certificate 6 -->
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="600">
-            <div class="certificate-box">
-              <img src="assets/img/tumbe1.jpg" alt="Acmegrade/Mood IIT Bombay" class="img-fluid">
-              <h4>Tumbe International E-Magazine</h4>
+            <div class="certificate-box text-center">
+              <img src="assets/img/tumbe1.jpg" alt="Tumbe International E-Magazine 1" class="img-fluid">
+              <h4>Tumbe International E-Magazine 1</h4>
+              <button class="btn btn-primary mt-3" onclick="openModal('assets/img/tumbe1.jpg')">View</button>
+            </div>
+          </div>
+
+          <!-- Certificate 7 -->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="700">
+            <div class="certificate-box text-center">
+              <img src="assets/img/tumbe2.jpg" alt="Tumbe International E-Magazine 2" class="img-fluid">
+              <h4>Tumbe International E-Magazine 2</h4>
+              <button class="btn btn-primary mt-3" onclick="openModal('assets/img/tumbe2.jpg')">View</button>
             </div>
           </div>
         </div>
-        
-
-          <!-- Add more certificates as needed -->
       </div>
-      
-        
-          </div>
-        </section>
-        
+    </section>
+  </main>
 
+  <!-- Modal for viewing certificate -->
+  <div id="certificateModal" class="modal fade" tabindex="-1" aria-labelledby="certificateModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img id="modalImage" src="" alt="Certificate Image" style="width: 100%; max-height: 80vh;">
         </div>
-
       </div>
-    </section><!-- End Services Section -->
-
-  </main><!-- End #main -->
-
- <!-- ======= Footer ======= -->
- <footer id="footer">
-  <div class="container">
-    <div class="copyright">
-      &copy; Copyright <strong><span>Harsha</span></strong>. All Rights Reserved
-    </div>
-    <div class="credits">
-     
-      Designed by <a href="https://harshaninganna.netlify.app//">Harsha_Ninganna</a>
     </div>
   </div>
-</footer><!-- End  Footer -->
 
-
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Harsha</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://harshaninganna.netlify.app/">Harsha_Ninganna</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    // Function to open the modal with the certificate image
+    function openModal(imageSrc) {
+      document.getElementById('modalImage').src = imageSrc;
+      var modal = new bootstrap.Modal(document.getElementById('certificateModal'));
+      modal.show();
+    }
+  </script>
 
 </body>
 
